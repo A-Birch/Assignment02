@@ -1,5 +1,9 @@
 /*eslint-env browser*/
 
+/* Larger or Smaller?
+Create an application that accepts two integers within two separate prompts. Then, display only the larger of the two within the browser window. Don’t forget to handle the fact that the two could be equal. */
+
+
 // ----------- LARGE OR SMALLER? --------------
 
 //GLOBAL VARIABLES
@@ -16,6 +20,7 @@ secondInteger = parseInt(window.prompt("Enter second integer: "), 10);
 
 if (firstInteger > secondInteger) {
     window.document.write("The first integer is large than the second. The first integer was: " + firstInteger);
+    
 } else if (firstInteger === secondInteger) {
     window.document.write("Both integers is equal: " + firstInteger + " = " + secondInteger);
 } else {

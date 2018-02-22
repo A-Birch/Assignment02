@@ -1,5 +1,16 @@
 /*eslint-env browser*/
 
+/* Looping a Triangle
+Write a loop that displays the following triangle within a console window:
+#
+##
+###
+####
+#####
+######
+#######
+*/
+
 // ----------- Looping a Triangle --------------
 
 var note = '';
